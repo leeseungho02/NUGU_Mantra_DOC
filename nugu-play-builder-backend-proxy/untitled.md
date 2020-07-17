@@ -4,13 +4,13 @@ description: 공부 도움 서비스
 
 # StartWhitenoiseAction
 
-{% api-method method="get" host="http://stac.gondr.net" path="/nugu/StartWhitenoiseAction" %}
+{% api-method method="post" host="http://stac.gondr.net" path="/nugu/StartWhitenoiseAction" %}
 {% api-method-summary %}
 공부 시작
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+NUGU SDK
 {% endapi-method-description %}
 
 {% api-method-spec %}
