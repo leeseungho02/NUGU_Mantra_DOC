@@ -1,8 +1,12 @@
+---
+description: 공부 도움 서비스
+---
+
 # StartWhitenoiseAction
 
 {% api-method method="get" host="http://stac.gondr.net" path="/nugu/StartWhitenoiseAction" %}
 {% api-method-summary %}
-Get Cakes
+공부 시작
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -43,7 +47,7 @@ Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+{output: "연결 실패 했습니다."}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
