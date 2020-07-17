@@ -6,7 +6,7 @@ description: 공부 도움 서비스
 
 {% api-method method="post" host="http://stac.gondr.net" path="/nugu/StartWhitenoiseAction" %}
 {% api-method-summary %}
-공부 시작
+StartWhitenoiseAction
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -37,7 +37,7 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{ output:"{{whitenoise_playing_time}} 동안, {{whitenoise_type}} 백색소음을 재생할게요." }
+{ output: "{{whitenoise_playing_time}} 동안, {{whitenoise_type}} 백색소음을 재생할게요." }
 ```
 {% endapi-method-response-example %}
 

@@ -6,7 +6,7 @@ description: 명상 지도 서비스
 
 {% api-method method="post" host="http://stac.gondr.net" path="/nugu/StartMeditationAction" %}
 {% api-method-summary %}
-명상 시작
+StartMeditationAction
 {% endapi-method-summary %}
 
 {% api-method-description %}
