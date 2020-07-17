@@ -21,7 +21,7 @@ NUGU SDK
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="meditation\_playing\_minute" type="integer" required=false %}
-재생 시간 : 
+재생 시간 : 분
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -33,7 +33,7 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{ output: "{{meditation_playing_hour}}시 {{meditation_playing_minute}}분 동안, 명상 실행" }
 ```
 {% endapi-method-response-example %}
 
@@ -43,7 +43,7 @@ Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+{output: "연결 실패 했습니다."}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
