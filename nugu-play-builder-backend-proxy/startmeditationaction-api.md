@@ -1,5 +1,5 @@
 ---
-description: 명상 지도 서비스
+description: 명상 지도 시작 서비스
 ---
 
 # StartMeditationAction

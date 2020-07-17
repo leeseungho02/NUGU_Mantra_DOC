@@ -5,4 +5,5 @@
   * [StartMeditationAction](nugu-play-builder-backend-proxy/startmeditationaction-api.md)
   * [StartWhitenoiseAction](nugu-play-builder-backend-proxy/untitled.md)
   * [StartSleepAction](nugu-play-builder-backend-proxy/untitled-1.md)
+  * [RecordMeditationAction](nugu-play-builder-backend-proxy/recordmeditationaction.md)
 

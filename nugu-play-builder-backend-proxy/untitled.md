@@ -1,5 +1,5 @@
 ---
-description: 공부 도움 서비스
+description: 공부 도움 시작 서비스
 ---
 
 # StartWhitenoiseAction
@@ -37,7 +37,7 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{ output: "{{whitenoise_playing_time}} 동안, {{whitenoise_type}} 백색소음을 재생할게요." }
+{ output: "{{whitenoise_playing_hour}}시 {{whitenoise_playing_minute}} 동안, {{whitenoise_type}} 백색소음을 재생할게요." }
 ```
 {% endapi-method-response-example %}
 
