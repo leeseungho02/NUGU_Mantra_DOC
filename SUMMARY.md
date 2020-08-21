@@ -6,7 +6,7 @@
   * [회원가입](ui/register.md)
   * [로그인](ui/login.md)
   * [메인](ui/main/README.md)
-    * [평가](ui/main/evaluation.md)
+    * [평가 기능](ui/main/evaluation.md)
   * [가이드](ui/guide/README.md)
     * [명상](ui/guide/meditation.md)
     * [백색소음](ui/guide/whitenoise.md)
